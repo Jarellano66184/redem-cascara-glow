@@ -52,6 +52,15 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				brand: {
+					rose: 'hsl(var(--brand-rose))',
+					'rose-light': 'hsl(var(--brand-rose-light))',
+					'rose-dark': 'hsl(var(--brand-rose-dark))',
+					gold: 'hsl(var(--brand-gold))',
+					'gold-light': 'hsl(var(--brand-gold-light))',
+					cream: 'hsl(var(--brand-cream))',
+					sage: 'hsl(var(--brand-sage))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -62,6 +71,23 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				}
+			},
+			backgroundImage: {
+				'gradient-hero': 'var(--gradient-hero)',
+				'gradient-product': 'var(--gradient-product)',
+				'gradient-natural': 'var(--gradient-natural)'
+			},
+			boxShadow: {
+				'soft': 'var(--shadow-soft)',
+				'product': 'var(--shadow-product)',
+				'elegant': 'var(--shadow-elegant)'
+			},
+			fontFamily: {
+				sans: ['Inter', 'system-ui', 'sans-serif'],
+			},
+			transitionProperty: {
+				'smooth': 'var(--transition-smooth)',
+				'bounce': 'var(--transition-bounce)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
